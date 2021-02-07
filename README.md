@@ -1,15 +1,12 @@
 # Elevator Music
 
-Gradle is an awesome Build Tool that has a performance,
-but everytime it gets faster we increase its workload.
-Because of this, we will spend a long time waiting on
-the build. 
+Gradle is an awesome build tool with good performance, but every time it gets faster, we tend to increase its workload.
+So sometimes we might have to wait a little longer for the build.
 
-Now we can add elevator music with this plugin to the
-build to increase the fun while waiting. This plugin
-also adds the ability to set a success sound that plays
-when the build finishes, so you know when you can resume
-working.
+This plugin adds elevator music to the build to make waiting more fun. 
+It also adds the ability to set a success sound to play when the build is finished, so you know when you should resume working.
+
+![https://xkcd.com/303/](https://imgs.xkcd.com/comics/compiling.png)
 
 ##Installation
 TODO
