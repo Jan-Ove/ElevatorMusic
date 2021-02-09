@@ -11,11 +11,17 @@ also adds the ability to set a success sound that plays
 when the build finishes, so you know when you can resume
 working.
 
-##Installation
-TODO
+## Installation
+Add the plugin to the `plugins`-block and configure the 
+music you want to hear. Currently, supported file formats
+are: WAV, AIFF and AU.
+```kotlin
+plugins {
+  id("hamburg.janove.elevator-music") version "0.1"
+}
 
-##Configuration
-TODO
-
-##Tips and Tricks
-TODO
+elevatorMusic {
+    waitMusic = file("../girl_from_ipanema.wav")
+    successSound = file("../bell.wav")
+}
+```
